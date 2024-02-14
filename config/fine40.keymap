@@ -43,7 +43,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE5";
             #binding-cells = <0>;
-            bindings = <&kp N5>, <&kp LS(NUMBER_1)>;
+            bindings = <&kp N5>, <&kp LS(N5)>;
         };
 
         tap_dance6: tap_dance6 {
@@ -80,6 +80,13 @@
             #binding-cells = <0>;
             bindings = <&kp N0>, <&kp LS(N0)>;
         };
+
+        tap_danceNubs: tap_danceNubs {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCENUBS";
+            #binding-cells = <0>;
+            bindings = <&kp NUBS>, <&kp RA(NUBS)>;
+        };
     };
 
     keymap {
@@ -107,10 +114,10 @@
 
         left {
             bindings = <
-&kp GRAVE  &tap_dance1  &tap_dance2  &tap_dance3  &tap_dance4  &tap_dance5  &tap_dance6  &tap_dance7  &tap_dance8  &tap_dance9    &tap_dance0        &kp LEFT_BRACKET
-&trans     &trans       &trans       &trans       &trans       &trans       &kp EQUAL    &kp SLASH    &kp MINUS    &kp BACKSLASH  &kp RIGHT_BRACKET  &kp APOS
-&trans     &kp NUBS     &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans         &kp PG_UP          &trans
-&trans     &trans       &trans       &trans       &trans       &trans       &trans       &trans       &kp HOME     &kp PAGE_DOWN  &kp END            &trans
+&kp GRAVE  &tap_dance1     &tap_dance2  &tap_dance3  &tap_dance4  &tap_dance5  &tap_dance6  &tap_dance7  &tap_dance8  &tap_dance9    &tap_dance0        &kp LEFT_BRACKET
+&trans     &trans          &trans       &trans       &trans       &trans       &kp EQUAL    &kp SLASH    &kp MINUS    &kp BACKSLASH  &kp RIGHT_BRACKET  &kp APOS
+&trans     &tap_danceNubs  &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans         &kp PG_UP          &trans
+&trans     &trans          &trans       &trans       &trans       &trans       &trans       &trans       &kp HOME     &kp PAGE_DOWN  &kp END            &trans
             >;
         };
 
