@@ -10,85 +10,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    behaviors {
-        tap_dance1: tap_dance1 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE1";
-            #binding-cells = <0>;
-            bindings = <&kp NUMBER_1>, <&kp LS(NUMBER_1)>;
-        };
-
-        tap_dance2: tap_dance2 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE2";
-            #binding-cells = <0>;
-            bindings = <&kp NUMBER_2>, <&kp LS(NUMBER_2)>;
-        };
-
-        tap_dance3: tap_dance3 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE3";
-            #binding-cells = <0>;
-            bindings = <&kp NUMBER_3>, <&kp LS(NUMBER_3)>;
-        };
-
-        tap_dance4: tap_dance4 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE4";
-            #binding-cells = <0>;
-            bindings = <&kp NUMBER_4>, <&kp LS(NUMBER_4)>;
-        };
-
-        tap_dance5: tap_dance5 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE5";
-            #binding-cells = <0>;
-            bindings = <&kp N5>, <&kp LS(N5)>;
-        };
-
-        tap_dance6: tap_dance6 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE6";
-            #binding-cells = <0>;
-            bindings = <&kp NUMBER_6>, <&kp LS(NUMBER_6)>;
-        };
-
-        tap_dance7: tap_dance7 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE7";
-            #binding-cells = <0>;
-            bindings = <&kp N7>, <&kp LS(N7)>;
-        };
-
-        tap_dance8: tap_dance8 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE8";
-            #binding-cells = <0>;
-            bindings = <&kp N8>, <&kp LS(N8)>;
-        };
-
-        tap_dance9: tap_dance9 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE9";
-            #binding-cells = <0>;
-            bindings = <&kp N9>, <&kp LS(N9)>;
-        };
-
-        tap_dance0: tap_dance0 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE0";
-            #binding-cells = <0>;
-            bindings = <&kp N0>, <&kp LS(N0)>;
-        };
-
-        tap_danceNubs: tap_danceNubs {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCENUBS";
-            #binding-cells = <0>;
-            bindings = <&kp NUBS>, <&kp RA(NUBS)>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -114,10 +35,10 @@
 
         left {
             bindings = <
-&kp GRAVE  &tap_dance1     &tap_dance2  &tap_dance3  &tap_dance4  &tap_dance5  &tap_dance6  &tap_dance7  &tap_dance8  &tap_dance9    &tap_dance0        &kp LEFT_BRACKET
-&trans     &trans          &trans       &trans       &trans       &trans       &kp EQUAL    &kp SLASH    &kp MINUS    &kp BACKSLASH  &kp RIGHT_BRACKET  &kp APOS
-&trans     &tap_danceNubs  &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans         &kp PG_UP          &trans
-&trans     &trans          &trans       &trans       &trans       &trans       &trans       &trans       &kp HOME     &kp PAGE_DOWN  &kp END            &trans
+&kp GRAVE  &none   &none   &none   &none   &none   &none      &none      &none      &none          &none              &kp LEFT_BRACKET
+&trans     &trans  &trans  &trans  &trans  &trans  &kp EQUAL  &kp SLASH  &kp MINUS  &kp BACKSLASH  &kp RIGHT_BRACKET  &kp APOS
+&trans     &none   &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans         &kp PG_UP          &trans
+&trans     &trans  &trans  &trans  &trans  &trans  &trans     &trans     &kp HOME   &kp PAGE_DOWN  &kp END            &trans
             >;
         };
 
@@ -131,12 +52,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        Tri {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
