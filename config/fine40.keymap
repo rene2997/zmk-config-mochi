@@ -28,7 +28,7 @@
             bindings = <
 &kp LS(GRAVE)  &kp LS(N1)    &kp LS(N2)        &kp LS(N3)        &kp LS(N4)        &kp LS(N5)  &kp LS(N6)     &kp LS(N7)  &kp LS(N8)  &kp LS(NUMBER_9)  &kp LS(N0)  &kp DEL
 &trans         &kp AT_SIGN   &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(NUMBER_4)  &kp RA(N5)  &kp RA(EQUAL)  &kp RA(N7)  &kp RA(N8)  &kp RA(N9)        &kp RA(N0)  &trans
-&trans         &kp RA(NUBS)  &kp QUESTION      &trans            &trans            &trans      &trans         &trans      &trans      &trans            &trans      &trans
+&trans         &kp RA(NUBS)  &kp QMARK         &trans            &trans            &trans      &trans         &trans      &trans      &trans            &trans      &trans
 &trans         &trans        &trans            &trans            &trans            &trans      &trans         &trans      &trans      &trans            &trans      &trans
             >;
         };
