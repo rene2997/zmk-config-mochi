@@ -5,7 +5,6 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 
@@ -26,10 +25,10 @@
 
         right {
             bindings = <
-&kp LS(GRAVE)  &kp LS(N1)    &kp LS(N2)        &kp LS(N3)        &kp LS(N4)        &kp LS(N5)  &kp LS(N6)     &kp LS(N7)  &kp LS(N8)  &kp LS(NUMBER_9)  &kp LS(N0)  &kp LS(MINUS)
-&trans         &kp AT_SIGN   &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(NUMBER_4)  &kp RA(N5)  &kp RA(EQUAL)  &kp RA(N7)  &kp RA(N8)  &kp RA(N9)        &kp RA(N0)  &trans
-&trans         &kp RA(NUBS)  &trans            &trans            &trans            &trans      &trans         &trans      &trans      &trans            &trans      &trans
-&trans         &trans        &trans            &trans            &trans            &trans      &trans         &trans      &trans      &trans            &trans      &trans
+&kp LS(GRAVE)             &kp LS(N1)        &kp LS(N2)        &kp LS(N3)        &kp LS(N4)        &kp LS(N5)  &kp LS(N6)     &kp LS(N7)  &kp LS(N8)  &kp LS(NUMBER_9)  &kp LS(N0)  &kp LS(MINUS)
+&trans                    &kp RA(NUMBER_1)  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(NUMBER_4)  &kp RA(N5)  &kp RA(EQUAL)  &kp RA(N7)  &kp RA(N8)  &kp RA(N9)        &kp RA(N0)  &trans
+&kp RA(NON_US_BACKSLASH)  &kp RA(NUBS)      &trans            &trans            &trans            &trans      &trans         &trans      &trans      &trans            &trans      &trans
+&trans                    &trans            &trans            &trans            &trans            &trans      &trans         &trans      &trans      &trans            &trans      &trans
             >;
         };
 
@@ -46,10 +45,10 @@
 
         control {
             bindings = <
-&sys_reset  &bootloader  &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &trans   &trans   &trans   &trans   &trans            &trans   &trans
-&trans      &kp F11      &kp F12     &kp F13     &kp F14     &kp F15  &kp F16  &kp F17  &kp F18  &kp F19           &kp F20  &trans
-&trans      &kp F1       &kp F2      &kp F3      &kp F4      &kp F5   &kp F6   &kp F7   &kp F8   &kp F9            &kp F10  &trans
-&trans      &trans       &trans      &trans      &trans      &trans   &trans   &trans   &trans   &ext_power EP_ON  &trans   &trans
+&sys_reset  &kp RA(NUMBER_1)  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(NUMBER_4)  &kp RA(N5)  &kp RA(NUMBER_6)  &kp RA(NUMBER_7)  &kp RA(NUMBER_8)  &kp RA(NUMBER_9)  &kp RA(NUMBER_0)  &trans
+&trans      &kp F11           &kp F12           &kp F13           &kp F14           &kp F15     &kp F16           &kp F17           &kp F18           &kp F19           &kp F20           &trans
+&trans      &kp F1            &kp F2            &kp F3            &kp F4            &kp F5      &kp F6            &kp F7            &kp F8            &kp F9            &kp F10           &trans
+&trans      &trans            &trans            &trans            &trans            &trans      &trans            &trans            &trans            &ext_power EP_ON  &trans            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp K_NEXT K_BACK>;
