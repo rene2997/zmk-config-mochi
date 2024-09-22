@@ -78,7 +78,7 @@
 
         AppleWiring {
             if-layers = <1 4>;
-            then-layer = <4>;
+            then-layer = <5>;
         };
     };
 };
