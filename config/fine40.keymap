@@ -77,8 +77,8 @@
         compatible = "zmk,conditional-layers";
 
         AppleWiring {
-            if-layers = <5 3>;
-            then-layer = <6>;
+            if-layers = <3 4>;
+            then-layer = <5>;
         };
     };
 };
