@@ -47,10 +47,10 @@
 
         right {
             bindings = <
-&kp LS(GRAVE)             &kp LS(N1)            &kp LS(N2)        &kp LS(N3)        &kp RA(NUMBER_3)  &kp LS(N5)  &kp LS(N6)        &kp LS(N7)     &kp RA(N8)     &kp RA(NUMBER_9)  &kp LS(N0)           &kp LS(MINUS)
-&trans                    &kp RA(NUMBER_1)      &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(NUMBER_4)  &kp RA(N5)  &kp RA(NUMBER_6)  &kp RA(EQUAL)  &trans         &trans            &kp RS(RIGHT_BRACE)  &kp RA(NUMBER_2)
-&kp RA(NON_US_BACKSLASH)  &kp NON_US_BACKSLASH  &trans            &trans            &trans            &trans      &trans            &trans         &kp RS(COMMA)  &kp RS(PERIOD)    &kp RS(SLASH)        &trans
-&trans                    &trans                &trans            &trans            &trans            &trans      &trans            &trans         &trans         &trans            &trans               &trans
+&kp LS(GRAVE)  &kp LS(N1)                &kp LS(N2)        &kp LS(N3)        &kp RA(NUMBER_3)  &kp LS(N5)  &kp LS(N6)        &kp LS(N7)     &kp RA(N8)     &kp RA(NUMBER_9)  &kp LS(N0)           &kp LS(MINUS)
+&trans         &kp RA(NUMBER_1)          &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(NUMBER_4)  &kp RA(N5)  &kp RA(NUMBER_6)  &kp RA(EQUAL)  &trans         &trans            &kp RS(RIGHT_BRACE)  &kp RA(NUMBER_2)
+&trans         &kp LS(NON_US_BACKSLASH)  &trans            &trans            &trans            &trans      &trans            &trans         &kp RS(COMMA)  &kp RS(PERIOD)    &kp RS(SLASH)        &trans
+&trans         &trans                    &trans            &trans            &trans            &trans      &trans            &trans         &trans         &trans            &trans               &trans
             >;
         };
 
@@ -65,10 +65,10 @@
 
         RightAndShift {
             bindings = <
-&trans  &trans                    &trans  &kp RA(NUMBER_4)  &trans  &trans  &trans  &kp RA(NON_US_BACKSLASH)  &kp RA(N7)  &kp RA(N0)  &trans  &kp MINUS
-&trans  &trans                    &trans  &trans            &trans  &trans  &trans  &trans                    &trans      &trans      &trans  &trans
-&trans  &kp RS(NON_US_BACKSLASH)  &trans  &trans            &trans  &trans  &trans  &trans                    &trans      &trans      &trans  &trans
-&trans  &trans                    &trans  &trans            &trans  &trans  &trans  &trans                    &trans      &trans      &trans  &trans
+&trans  &trans  &trans  &kp RA(NUMBER_4)  &trans  &trans  &trans  &kp RA(NON_US_BACKSLASH)  &kp RA(N7)  &kp RA(N0)  &trans  &kp MINUS
+&trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans                    &trans      &trans      &trans  &trans
+&trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans                    &trans      &trans      &trans  &trans
+&trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans                    &trans      &trans      &trans  &trans
             >;
         };
     };
