@@ -65,10 +65,10 @@
 
         RightAndShift {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RA(N7)  &kp RA(N0)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans      &trans  &trans
+&trans  &trans  &trans  &kp RA(NUMBER_4)  &trans  &trans  &trans  &trans  &kp RA(N7)  &kp RA(N0)  &trans  &trans
+&trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans      &trans      &trans  &trans
+&trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans      &trans      &trans  &trans
+&trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans      &trans      &trans  &trans
             >;
         };
     };
