@@ -47,16 +47,16 @@
 
         right {
             bindings = <
-&kp LS(GRAVE)             &kp LS(N1)        &kp LS(N2)        &kp LS(N3)            &kp LS(N4)                &kp LS(N5)     &kp LS(N6)        &kp LS(N7)  &kp LS(N8)     &kp LS(NUMBER_9)  &kp LS(N0)     &kp LS(MINUS)
-&trans                    &kp RA(NUMBER_1)  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)      &kp RA(NUMBER_4)          &kp RA(N5)     &kp RA(NUMBER_6)  &kp RA(N7)  &kp RA(N8)     &kp RA(N9)        &kp RA(N0)     &kp RS(RIGHT_BRACE)
-&kp RA(NON_US_BACKSLASH)  &kp RA(NUBS)      &trans            &kp NON_US_BACKSLASH  &kp RS(NON_US_BACKSLASH)  &kp RA(EQUAL)  &kp MINUS         &kp SLASH   &kp RS(COMMA)  &kp RS(PERIOD)    &kp RS(SLASH)  &trans
-&trans                    &trans            &trans            &trans                &trans                    &trans         &trans            &trans      &trans         &trans            &trans         &trans
+&kp LS(GRAVE)             &kp LS(N1)        &kp LS(N2)        &kp LS(N3)            &kp LS(N4)                &kp LS(N5)     &kp LS(N6)        &kp LS(N7)  &kp LS(N8)     &kp LS(NUMBER_9)  &kp LS(N0)           &kp LS(MINUS)
+&trans                    &kp RA(NUMBER_1)  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)      &kp RA(NUMBER_4)          &kp RA(N5)     &kp RA(NUMBER_6)  &kp RA(N7)  &kp RA(N8)     &kp RA(N9)        &kp RS(RIGHT_BRACE)  &trans
+&kp RA(NON_US_BACKSLASH)  &kp RA(NUBS)      &trans            &kp NON_US_BACKSLASH  &kp RS(NON_US_BACKSLASH)  &kp RA(EQUAL)  &kp MINUS         &kp SLASH   &kp RS(COMMA)  &kp RS(PERIOD)    &kp RS(SLASH)        &trans
+&trans                    &trans            &trans            &trans                &trans                    &trans         &trans            &trans      &trans         &trans            &trans               &trans
             >;
         };
 
         Shift {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans       &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans       &trans         &kp RA(NUMBER_2)
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans       &trans         &kp RA(NUMBER_2)
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RS(COMMA)  &kp RS(DOT)  &kp RS(SLASH)  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans       &trans         &trans
