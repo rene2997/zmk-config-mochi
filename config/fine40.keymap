@@ -56,10 +56,10 @@
 
         Shift {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RS(SLASH)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans       &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans       &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RS(COMMA)  &kp RS(DOT)  &kp RS(SLASH)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans       &trans         &trans
             >;
         };
 
