@@ -38,7 +38,7 @@
             bindings = <
 &trans  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0       &trans
 &trans  &kp SEMICOLON  &kp APOS      &kp LEFT_BRACKET  &trans        &trans        &kp EQUAL     &kp SLASH     &kp MINUS     &kp BACKSLASH  &kp RIGHT_BRACKET  &kp K_MUTE
-&trans  &trans         &trans        &trans            &trans        &trans        &trans        &trans        &trans        &trans         &kp PG_UP          &trans
+&trans  &kp LC(Z)      &trans        &kp LC(C)         &kp LC(V)     &trans        &trans        &trans        &trans        &trans         &kp PG_UP          &trans
 &trans  &trans         &trans        &trans            &trans        &trans        &trans        &trans        &kp HOME      &kp PAGE_DOWN  &kp END            &trans
             >;
 
@@ -71,6 +71,15 @@
 &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans                    &trans      &trans      &trans  &trans
             >;
         };
+
+        LeftAndRight {
+            bindings = <
+&trans  &trans  &trans  &kp PRINTSCREEN  &kp LS(LG(S))  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans           &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans           &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans           &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
     };
 
     conditional_layers {
@@ -79,6 +88,11 @@
         AppleWiring {
             if-layers = <3 4>;
             then-layer = <5>;
+        };
+
+        AppleWiring2 {
+            if-layers = <2 3>;
+            then-layer = <6>;
         };
     };
 };
