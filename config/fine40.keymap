@@ -65,10 +65,10 @@
 
         RightAndShift {
             bindings = <
-&trans  &trans  &trans  &kp RA(NUMBER_4)  &trans  &trans  &trans  &kp RA(NON_US_BACKSLASH)  &kp RA(N7)  &kp RA(N0)  &trans         &kp MINUS
-&trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans                    &trans      &trans      &kp RA(EQUAL)  &trans
-&trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans                    &trans      &trans      &trans         &trans
-&trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans                    &trans      &trans      &trans         &trans
+&trans  &trans  &trans  &kp RA(NUMBER_4)  &trans  &trans  &trans  &kp RA(NON_US_BACKSLASH)  &kp RA(N7)  &kp RA(N0)  &trans                 &kp MINUS
+&trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans                    &trans      &trans      &kp RA(RIGHT_BRACKET)  &trans
+&trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans                    &trans      &trans      &trans                 &trans
+&trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans                    &trans      &trans      &trans                 &trans
             >;
         };
 
