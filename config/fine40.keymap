@@ -56,7 +56,7 @@
 
         Shift {
             bindings = <
-&trans  &kp RS(NUMBER_1)          &kp RS(NUMBER_2)  &kp RS(NUMBER_3)  &kp LC(LA(N5))  &kp RS(NUMBER_5)  &kp RS(NUMBER_6)  &kp RS(NUMBER_7)  &kp LS(N8)             &kp LS(N9)     &kp RS(NUMBER_0)     &kp MINUS
+&trans  &kp RS(NUMBER_1)          &kp RS(NUMBER_2)  &kp RS(NUMBER_3)  &kp LC(LA(N5))  &kp RS(NUMBER_5)  &kp RS(NUMBER_6)  &kp RS(NUMBER_7)  &kp LS(N8)             &kp LS(N9)     &kp MINUS            &kp RS(NUMBER_0)
 &trans  &trans                    &trans            &trans            &trans          &trans            &trans            &kp RA(EQUAL)     &trans                 &trans         &kp RS(RIGHT_BRACE)  &kp RS(BACKSLASH)
 &trans  &kp LS(NON_US_BACKSLASH)  &trans            &trans            &trans          &trans            &trans            &trans            &kp RS(COMMA)          &kp RS(DOT)    &kp SLASH            &trans
 &trans  &trans                    &trans            &trans            &trans          &trans            &trans            &trans            &kp RS(RA(BACKSLASH))  &kp RS(SLASH)  &kp RS(RA(SLASH))    &kp C_PREVIOUS
