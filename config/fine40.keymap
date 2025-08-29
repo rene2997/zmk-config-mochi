@@ -36,10 +36,10 @@
 
         left {
             bindings = <
-&trans  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0       &trans
-&trans  &kp SEMICOLON  &kp APOS      &kp LEFT_BRACKET  &trans        &trans        &trans        &trans        &kp GRAVE     &trans         &kp RIGHT_BRACKET  &kp K_MUTE
-&trans  &kp LC(Z)      &trans        &kp LC(C)         &kp LC(V)     &trans        &trans        &trans        &trans        &trans         &kp PG_UP          &trans
-&trans  &trans         &trans        &trans            &trans        &trans        &trans        &trans        &kp HOME      &kp PAGE_DOWN  &kp END            &trans
+&trans  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8       &kp NUMBER_9   &kp NUMBER_0       &trans
+&trans  &kp SEMICOLON  &kp APOS      &kp LEFT_BRACKET  &trans        &trans        &trans        &trans        &kp RS(LS(EQUAL))  &kp EQUAL      &kp RIGHT_BRACKET  &kp K_MUTE
+&trans  &kp LC(Z)      &trans        &kp LC(C)         &kp LC(V)     &trans        &trans        &trans        &trans             &trans         &kp PG_UP          &trans
+&trans  &trans         &trans        &trans            &trans        &trans        &trans        &trans        &kp HOME           &kp PAGE_DOWN  &kp END            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LG(K_PASTE) K_COPY>;
